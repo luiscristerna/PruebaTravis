@@ -1,6 +1,6 @@
 # Luis Manuel Cristerna Gallegos 05/09/2017
 # Implementando CI con travis
-#prueba
+#pruebas
 import math
 
 
