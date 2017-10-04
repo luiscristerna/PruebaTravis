@@ -4,7 +4,6 @@ before_script:
 
   - "flake8 --max-complexity=10 --exclude=*.txt,*.md,*.pyc,steps.py,*.feature *"
 
-  - "flake8 --max-complexity=10 --exclude=*.txt,*.md,*.pyc,steps.py *"
 
 install:
   - "sudo pip install --upgrade six"
