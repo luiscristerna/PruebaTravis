@@ -1,0 +1,34 @@
+---
+before_script:
+  - "autopep8 -ir *"
+<<<<<<< HEAD
+  - "flake8 --max-complexity=10 --exclude=*.txt,*.md,*.pyc,steps.py,*.feature *"
+=======
+  - "flake8 --max-complexity=10 --exclude=*.txt,*.md,*.pyc,steps.py *"
+>>>>>>> b14a3e20acba4e119ddf9efe1b06cdd1783f5acc
+install:
+  - "sudo pip install --upgrade six"
+  - "sudo pip install lettuce"
+  - "sudo pip install -U setuptools"
+  - "sudo pip install autopep8"
+  - "sudo pip install flake8"
+<<<<<<< HEAD
+  - "sudo pip install coverage"
+=======
+>>>>>>> b14a3e20acba4e119ddf9efe1b06cdd1783f5acc
+lenguage: python
+python:
+  - "2.7"
+script:
+  - "python CalculadoraTest.py"
+<<<<<<< HEAD
+  - lettuce
+  - coverage run --branch CalculadoraTest.py
+  - coverage report
+  - coverage run --branch EdadTest.py
+  - coverage report
+  - coverage run --branch FigurasTest.py
+  - coverage report
+=======
+  - lettuce
+>>>>>>> b14a3e20acba4e119ddf9efe1b06cdd1783f5acc
