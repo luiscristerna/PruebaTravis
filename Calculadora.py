@@ -1,6 +1,6 @@
 # Luis Manuel Cristerna Gallegos 05/09/2017
 # Implementando CI con travis
-#prueba 3
+#prueba
 import math
 
 
@@ -25,14 +25,14 @@ class Calculadora():
             self.resultado = "Datos Incorrectos"
 
     def multiplicacion(self, num1, num2):
-<<<<<<< HEAD
+
         self.resultado = num1 * num2
-=======
+
         try:
             self.resultado = num1 * num2
         except:
             self.resultado = "Datos Incorrectos"
->>>>>>> b14a3e20acba4e119ddf9efe1b06cdd1783f5acc
+
 
     def division(self, num1, num2):
         try:
@@ -53,13 +53,12 @@ class Calculadora():
             self.resultado = 'Datos Incorrectos'
 
     def raiz(self, num1):
-<<<<<<< HEAD
         if(num1 < 0):
             self.resultado = 'Error'
         else:
             self.resultado = math.sqrt(num1)
 
-=======
+
         try:
             if(num1 < 0):
                 self.resultado = 'Error'
@@ -67,4 +66,3 @@ class Calculadora():
                 self.resultado = math.sqrt(num1)
         except:
             self.resultado = 'Datos incorrectos'
->>>>>>> b14a3e20acba4e119ddf9efe1b06cdd1783f5acc
