@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from lettuce import step, world
-from calculadora import Calculadora
+from Calculadora import Calculadora
 from Edad import Edad
 from Figuras import Figuras
 
